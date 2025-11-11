@@ -27,8 +27,6 @@ This approach reduces overhead and efficiently utilizes CPU resources.
 - ✅ Modular and easy to integrate  
 
 ---
-
-## 📂 Project Structure
 threadpool-dynamic/
 │
 ├── include/
@@ -42,7 +40,6 @@ threadpool-dynamic/
 │
 ├── CMakeLists.txt
 └── README.md
----
 
 ## ⚙️ Build & Run
 
