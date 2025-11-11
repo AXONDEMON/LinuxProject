@@ -8,10 +8,10 @@
 This project implements a **dynamic thread pool** in C++ that automatically manages worker threads based on the number of pending tasks.
 
 It:
-- Maintains a queue of tasks
-- Executes them via worker threads
-- Scales **up** when the queue grows
-- Scales **down** when work is completed
+- Maintains a queue of tasks  
+- Executes them via worker threads  
+- Scales **up** when the queue grows  
+- Scales **down** when work is completed  
 
 This approach reduces overhead and efficiently utilizes CPU resources.
 
@@ -27,6 +27,8 @@ This approach reduces overhead and efficiently utilizes CPU resources.
 - ✅ Modular and easy to integrate  
 
 ---
+
+## 📂 Project Structure
 threadpool-dynamic/
 │
 ├── include/
@@ -40,6 +42,7 @@ threadpool-dynamic/
 │
 ├── CMakeLists.txt
 └── README.md
+---
 
 ## ⚙️ Build & Run
 
